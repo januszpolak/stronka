@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    min-height: 150vh;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background-image: url(../img/bcg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header>* {
+    position: absolute;
+}
+
+header p {
+    top: 40vh;
+    right: 10vh;
+    color: white;
+    font-size: 20px;
+}
+
+header p:nth-child(2) {
+    top: 50vh;
+}
+
+header button {
+    bottom: 10vh;
+    right: 10vh;
+    width: 20vw;
+    height: 15vh;
+    line-height: 15vh;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: .3;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px black;
+}
+
+header button:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.me {
+    padding: 15vh 30vh;
+    min-height: 100vh;
+    background-color: gray;
+}
